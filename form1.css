@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    width: 500px;
+    height: 700px;
+    background-color: pink;
+    padding: 30px 30px;
+    position: relative;
+    margin-left: 450px;
+    font-family: sans-serif;
+    border: none;
+    box-shadow: 0 0 1px gray;
+}
+
+.top {
+    width: 250px;
+    height: 250px;
+    margin-top: 35px;
+    margin-left: 95px;
+    position: absolute;
+    border-radius: 20px;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/045/132/934/small_2x/a-beautiful-picture-of-the-eiffel-tower-in-paris-the-capital-of-france-with-a-wonderful-background-in-wonderful-natural-colors-photo.jpg");
+    background-size: cover;
+    border: none;
+    box-shadow: 0 0 1px gray;
+}
+
+.info {
+    width: 100%;
+    height: 480px;
+    background-color: white;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+
+.name {
+    padding-top: 220px;
+    padding-left: 130px;
+    font-size: 33px;
+    font-weight: 600;
+    color: rgb(52, 49, 49);
+}
+
+.position {
+    /* padding-top: 230px; */
+    padding-left: 145px;
+    color: rgb(111, 111, 111);
+}
+
+.btn{
+    margin-left: 100px;
+    margin-top: 25px;
+}
+
+.follow{
+    padding: 13px 30px;
+    margin-right: 30px;
+    border-radius: 5px;
+    background-color: rgb(193, 63, 85);
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    border: none;
+    box-shadow: 0 0 1px gray;
+    cursor: pointer;
+}
+.follow:active{
+    scale: 0.9;
+    transition: 0.5s;
+}
+.message{
+    padding: 13px 35px;
+    border-radius: 5px;
+    background-color: rgb(88, 86, 86);
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    border: none;
+    box-shadow: 0 0 1px gray;
+    cursor: pointer;
+}
+.message:active{
+    scale: 0.9;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.data1{
+    padding-top: 20px;
+    padding-left: 99px;
+    word-spacing: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(52, 49, 49);
+}
+.data2{
+    margin-top: 5px;
+    padding-left: 90px;
+    font-size: 18px;
+    color: rgb(111, 111, 111);
+}
+.post{
+    margin-left: 5px;
+}
+.follower{
+    margin-left: 45px;
+}
+.following{
+    margin-left: 20px;
+}
